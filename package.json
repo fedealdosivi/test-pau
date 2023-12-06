@@ -1,0 +1,22 @@
+{
+  "name": "test-pau",
+  "version": "1.0.0",
+  "description": "test nuevo texto",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedealdosivi/test-pau.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedealdosivi/test-pau/issues"
+  },
+  "homepage": "https://github.com/fedealdosivi/test-pau#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.3"
+  }
+}
