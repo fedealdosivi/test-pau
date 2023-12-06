@@ -30,7 +30,15 @@ export default defineConfig({
     trace: 'on-first-retry',
     headless: true,
     actionTimeout: 3000,
-    screenshot: 'only-on-failure'
+    screenshot: 'only-on-failure',
+    // Emulates the user locale.
+    locale: 'en-GB',
+
+    // Grants specified permissions to the browser context.
+    permissions: ['geolocation'],
+
+    // Emulates the user timezone.
+    timezoneId: 'Europe/Paris',
   },
 
   /* Configure projects for major browsers */
